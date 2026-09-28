@@ -1,0 +1,17 @@
+=== E5a/b lookup baselines ===
+split                             random   group    LOCO    LOBO    LOHO
+model                                                                   
+A-cation-only lookup              0.8920  0.9537  0.8833  0.8974  1.1175
+Halide + metal lookup             0.3846  0.3880  0.3861  0.8977  1.1199
+Halide-only lookup                0.4185  0.4206  0.4208  0.4619  1.1199
+Model 0: composition-mean lookup  0.4078  0.8986  0.8833  0.8977  1.1199
+split                             random   group    LOCO    LOBO    LOHO
+model                                                                   
+A-cation-only lookup             -0.0093 -0.1549 -0.0032 -0.0350 -0.5581
+Halide + metal lookup             0.8152  0.8112  0.8131 -0.0491 -0.5721
+Halide-only lookup                0.7710  0.7674  0.7683  0.7134 -0.5721
+Model 0: composition-mean lookup  0.7844 -0.0344 -0.0032 -0.0491 -0.5721
+[ablation] COMP done
+[ablation] COMP+PHYS done
+[ablation] COMP+LLM done
+[ablation] COMP+LLM+PHYS done

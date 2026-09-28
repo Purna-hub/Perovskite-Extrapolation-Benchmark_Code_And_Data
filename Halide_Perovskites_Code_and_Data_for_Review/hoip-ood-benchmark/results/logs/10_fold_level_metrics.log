@@ -1,0 +1,35 @@
+direct LOCO done
+direct LOBO done
+direct LOHO done
+delta LOCO done
+delta LOBO done
+delta LOHO done
+                mean     std     min     max
+mode   split                                
+delta  LOBO   0.1269  0.0104  0.1175  0.1380
+       LOCO   0.0429  0.0121  0.0296  0.0662
+       LOHO   0.0969  0.0778  0.0356  0.2106
+direct LOBO   0.7005  0.2364  0.4672  0.9398
+       LOCO   0.2232  0.0755  0.1107  0.4087
+       LOHO   0.7176  0.3300  0.4649  1.1998
+
+LOHO:
+  mode fold   n    MAE      R2
+direct   Br 350 0.5583 -0.3132
+direct   Cl 335 0.4649  0.0287
+direct    F 302 1.1998 -4.7322
+direct    I 359 0.6475 -1.1527
+ delta   Br 350 0.0356  0.9916
+ delta   Cl 335 0.0633  0.9769
+ delta    F 302 0.2106  0.8272
+ delta    I 359 0.0782  0.9601
+
+LOBO:
+  mode fold   n    MAE      R2
+direct   Ge 442 0.9398 -0.0666
+direct   Pb 432 0.6943  0.4825
+direct   Sn 472 0.4672  0.7213
+ delta   Ge 442 0.1253  0.9822
+ delta   Pb 432 0.1380  0.9770
+ delta   Sn 472 0.1175  0.9830
+DONE_E7

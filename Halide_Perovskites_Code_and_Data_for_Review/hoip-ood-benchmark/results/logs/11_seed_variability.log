@@ -1,0 +1,28 @@
+direct random seed0 MAE=0.1441
+direct random seed1 MAE=0.1442
+direct random seed2 MAE=0.1464
+direct random seed3 MAE=0.1419
+direct random seed4 MAE=0.1411
+direct group seed0 MAE=0.1624
+direct group seed1 MAE=0.1618
+direct group seed2 MAE=0.1676
+direct group seed3 MAE=0.1670
+direct group seed4 MAE=0.1626
+delta random seed0 MAE=0.0326
+delta random seed1 MAE=0.0324
+delta random seed2 MAE=0.0328
+delta random seed3 MAE=0.0318
+delta random seed4 MAE=0.0331
+delta group seed0 MAE=0.0379
+delta group seed1 MAE=0.0381
+delta group seed2 MAE=0.0380
+delta group seed3 MAE=0.0369
+delta group seed4 MAE=0.0367
+                    MAE              R2        
+                   mean     std    mean     std
+mode   protocol                                
+delta  group     0.0375  0.0007  0.9973  0.0002
+       random    0.0325  0.0005  0.9982  0.0000
+direct group     0.1643  0.0028  0.9575  0.0012
+       random    0.1435  0.0021  0.9657  0.0013
+DONE_E8

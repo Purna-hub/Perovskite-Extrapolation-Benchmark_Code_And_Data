@@ -1,0 +1,64 @@
+
+=== SHAP top-15 for dEg ===
+   feature  mean_abs_shap  block
+      X_EN       0.079827   COMP
+    Eg_GGA       0.057886    GGA
+      B_EN       0.034008   COMP
+       X_Z       0.018111   COMP
+V_per_atom       0.011105 STRUCT
+         c       0.009749 STRUCT
+    aspect       0.008204 STRUCT
+       rho       0.006184 STRUCT
+       B_Z       0.006041   COMP
+     B_IE1       0.005968   COMP
+         a       0.004569 STRUCT
+         b       0.004114 STRUCT
+   ang_dev       0.003731 STRUCT
+    X_mass       0.003646   COMP
+     tol_t       0.003387   PHYS
+block totals: {'COMP': 0.1525, 'GGA': 0.0579, 'LLM': 0.007, 'PHYS': 0.0161, 'STRUCT': 0.0641}
+
+=== SHAP top-15 for Eg_HSE ===
+      feature  mean_abs_shap  block
+       Eg_GGA       0.725553    GGA
+         X_EN       0.103283   COMP
+         B_EN       0.040270   COMP
+       aspect       0.030964 STRUCT
+   V_per_atom       0.018350 STRUCT
+          X_Z       0.017768   COMP
+polariz_ratio       0.014771   PHYS
+            c       0.008305 STRUCT
+          rho       0.008281 STRUCT
+            a       0.007629 STRUCT
+       dEN_BX       0.007512   PHYS
+      ang_dev       0.005191 STRUCT
+        B_IE1       0.004738   COMP
+  ang_max_dev       0.004617 STRUCT
+       oct_mu       0.004555   PHYS
+block totals: {'COMP': 0.1767, 'GGA': 0.7256, 'LLM': 0.0074, 'PHYS': 0.0408, 'STRUCT': 0.1034}
+[LC] direct  frac=0.05 MAE=0.4801+-0.0847
+[LC] direct  frac=0.10 MAE=0.3359+-0.0364
+[LC] direct  frac=0.20 MAE=0.3044+-0.0360
+[LC] direct  frac=0.35 MAE=0.2340+-0.0144
+[LC] direct  frac=0.50 MAE=0.1964+-0.0115
+[LC] direct  frac=0.70 MAE=0.1799+-0.0124
+[LC] direct  frac=0.90 MAE=0.1719+-0.0164
+[LC] delta   frac=0.05 MAE=0.1020+-0.0173
+[LC] delta   frac=0.10 MAE=0.0726+-0.0094
+[LC] delta   frac=0.20 MAE=0.0612+-0.0093
+[LC] delta   frac=0.35 MAE=0.0468+-0.0032
+[LC] delta   frac=0.50 MAE=0.0438+-0.0017
+[LC] delta   frac=0.70 MAE=0.0405+-0.0054
+[LC] delta   frac=0.90 MAE=0.0411+-0.0100
+
+=== E4c screening: formable AND in a PV gap window ===
+        A_cation  B  X  n_poly  Eg_HSE_min  Eg_HSE  tol_t  oct_mu  Erel1  SQ_single  tandem_top  Pb_free
+  Methylammonium Sn Br       6       1.797   2.746  0.939   0.587  0.107      False        True     True
+   Acetamidinium Sn  I       6       1.800   2.467  1.049   0.523  0.265      False        True     True
+Dimethylammonium Sn  I       8       1.839   2.466  1.038   0.523  0.147      False        True     True
+   Ethylammonium Sn  I      12       1.844   2.591  1.043   0.523  0.155      False        True     True
+
+formable compositions: 79/192
+Pb-free hits: 4
+
+DONE_E4
