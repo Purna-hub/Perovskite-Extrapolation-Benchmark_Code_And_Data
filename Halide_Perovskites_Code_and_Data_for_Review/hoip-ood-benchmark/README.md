@@ -4,9 +4,8 @@
 Large language model descriptors and multi-fidelity learning for HSE06 band gaps of hybrid halide
 perovskites under chemical extrapolation
 
-**Authors**
-Purnachary Munigadapa, B. Indera, Avula Edukondalu, Shyam Sunder Pabboju, J. Sampurna,
-B. Srinivasa S. P. Kumar
+**Coresponding Author**
+Purnachary Munigadapa, 
 
 **Submitted to** Computational Materials Science
 
